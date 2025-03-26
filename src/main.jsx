@@ -8,8 +8,8 @@ import EMatrix from './components/EMatrix.jsx'
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />}/>
-      <Route path="/eishenshowersmatrix" element={<EMatrix/>}/> 
+      <Route path="/todo-react-app/" element={<App />}/>
+      <Route path="/todo-react-app/eishenshowersmatrix" element={<EMatrix/>}/> 
     </Routes>
   </BrowserRouter>,
 )
