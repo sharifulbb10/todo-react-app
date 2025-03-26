@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+body {
+	font-family: Arial, sans-serif, monospace;
+	background-color: oklch(0.968 0.007 247.896);
+}
+
+.important-urgent::before, .important-lessUrgent::before, .lessImportant-urgent::before, .lessImportant-lessUrgent::before {
+	content: '';
+	position: absolute;
+	left: -5px;
+	top: 2px;
+	box-sizing: border-box;
+	margin-right: 3px;
+	width: 0;
+	height: 0;
+	border: 6px solid transparent;
+	border-left-color: black;
+}
+
+.active div{
+	background-color: #044740;
+}
