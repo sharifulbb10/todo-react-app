@@ -13,8 +13,8 @@ function MatrixPage() {
 	return (
 		<div>
 			<div className='flex justify-center'>
-				<NavLink to="/" className={({isActive})=>isActive?"active":""}><div className="w-25 h-8 bg-cyan-900 text-white flex justify-center items-center m-[1px] p-2 rounded-tl-md rounded-bl-md cursor-pointer hover:bg-teal-900"><span className="text-xs text-center ">All Tasks</span></div></NavLink>
-				<NavLink to="/eishenshowersmatrix" className={({isActive})=>isActive?"active":""}><div className="w-25 h-8 bg-cyan-900 text-white flex justify-center items-center m-[1px] p-2 rounded-tr-md rounded-br-md cursor-pointer hover:bg-teal-900"><span className="text-xs text-center">E. Matrix</span></div></NavLink>
+				<NavLink to="/todo-react-app/" className={({isActive})=>isActive?"active":""}><div className="w-25 h-8 bg-cyan-900 text-white flex justify-center items-center m-[1px] p-2 rounded-tl-md rounded-bl-md cursor-pointer hover:bg-teal-900"><span className="text-xs text-center ">All Tasks</span></div></NavLink>
+				<NavLink to="/todo-react-app/eishenshowersmatrix" className={({isActive})=>isActive?"active":""}><div className="w-25 h-8 bg-cyan-900 text-white flex justify-center items-center m-[1px] p-2 rounded-tr-md rounded-br-md cursor-pointer hover:bg-teal-900"><span className="text-xs text-center">E. Matrix</span></div></NavLink>
 			</div>
 			<h1 className="text-center mt-4 text-lg md:text-2xl mb-3 font-bold">Eisenhower Matrix</h1>
 			<div className="grid grid-rows-[10px_1fr_1fr] grid-cols-[10px_1fr_1fr] gap-2 m-1 md:m-5 md:gap-3">

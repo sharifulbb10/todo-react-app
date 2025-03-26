@@ -154,8 +154,8 @@ function Tabbar() {
 	return (
 		<div>
 			<div className='flex justify-center'>
-				<NavLink to="/" className={({isActive})=>isActive?"active":""}><div className="w-25 h-8 bg-cyan-900 text-white flex justify-center items-center m-[1px] p-2 rounded-tl-md rounded-bl-md cursor-pointer hover:bg-teal-900"><span className="text-xs text-center md:text-md">All Tasks</span></div></NavLink>
-				<NavLink to="/eishenshowersmatrix" className={({isActive})=>isActive?"active":""}><div className="w-25 h-8 bg-cyan-900 text-white flex justify-center items-center m-[1px] p-2 rounded-tr-md rounded-br-md cursor-pointer hover:bg-teal-900"><span className="text-xs text-center md:text-md">E. Matrix</span></div></NavLink>
+				<NavLink to="/todo-react-app/" className={({isActive})=>isActive?"active":""}><div className="w-25 h-8 bg-cyan-900 text-white flex justify-center items-center m-[1px] p-2 rounded-tl-md rounded-bl-md cursor-pointer hover:bg-teal-900"><span className="text-xs text-center md:text-md">All Tasks</span></div></NavLink>
+				<NavLink to="/todo-react-app/eishenshowersmatrix" className={({isActive})=>isActive?"active":""}><div className="w-25 h-8 bg-cyan-900 text-white flex justify-center items-center m-[1px] p-2 rounded-tr-md rounded-br-md cursor-pointer hover:bg-teal-900"><span className="text-xs text-center md:text-md">E. Matrix</span></div></NavLink>
 			</div>
 			<div className="relative">
 				<div className="flex justify-between m-2">
