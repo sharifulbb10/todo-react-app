@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/togo-react-app/",
+  base: "/todo-react-app/",
   plugins: [react(), tailwindcss()],
 })
