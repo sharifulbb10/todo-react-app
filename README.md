@@ -1,12 +1,6 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<div><h3>ToDo App</h3> | <a href="https://sharifulbb10.github.io/todo-react-app/">view live</a></div>
+<hr>
+<p>This <b>Todo</b> app will help users to manage their tasks easily. It includes <b>Eishenhower's Matrix</b>, which is an unorthodox feature. It will help users
+to prioritize their tasks easily, which I learned from a friend (thanks to him for teaching me such a productive tool!). By the way, this project was built for practicing
+purpose.<br/>
+Tools used in this projects are <b>React library</b>, <b>React Router</b>, <b>Javascript</b> and <b>Tailwindcss</b>.</p>
